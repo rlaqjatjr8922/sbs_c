@@ -1,0 +1,23 @@
+	
+	기본시작
+	#include <stdio.h>
+
+	int main(void){	
+	return 0;}
+
+
+	클래스이름
+	.c를붓혀야함
+
+	
+	@=숫자
+
+	printf( , 변수)
+
+
+
+	\n : 줄바꿈
+	\t@ : @크기만큼공백 
+
+
+	GIT
