@@ -9,11 +9,11 @@
     printf("result 1 : %d\n" ,resul);
 
 
-    result = num1 == 20 && num2 == 10 ;
-    printf("result 2 : %d\n" ,result);
+    resul = num1 == 20 && num2 == 10 ;
+    printf("result 2 : %d\n" ,resul);
 
 
-    esult = num1 == 20 && num2 == 100 ;
-    printf("resut 3 : %d \n",result);
+    resul = num1 == 20 && num2 == 100 ;
+    printf("resut 3 : %d \n",resul);
 
-	return 0;}
+	return 0;}s
