@@ -2,8 +2,12 @@
 
 int main() {
 
+double i = 3.14;
 
-printf ("15*15");
+
+printf("%d" , (int)i);
+
+
 return 0;
 
 }

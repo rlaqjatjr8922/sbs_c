@@ -4,7 +4,7 @@ int main() {
 
     int score = 0;
     char grade = 'F';
-    printf()
+    printf("d");
 
     if( score <= 100 && score >=90){
         grade = 'A';

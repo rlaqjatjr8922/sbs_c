@@ -2,22 +2,22 @@
 
 int main() {
     int num;
-    //무한반복 : 조건을(1)로하면됌
+    //?????? : ??????(1)??????
     while (1){
-    printf("1. 주문,2. 바구니,1. 종료\n");
-    printf("매뉴");
+    printf("1. ???,2. ?????,1. ????\n");
+    printf("???");
     scanf("%d",&num);
 
     if(num == 1 ){
-        printf("주문");
+        printf("???");
 
     }
         if(num == 2 ){
-        printf("담겼다");
+        printf("????");
 
     }
     if(num == 0 ){
-        printf("종료");
+        printf("????");
         break;
     }
 
