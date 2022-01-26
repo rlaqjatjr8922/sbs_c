@@ -5,7 +5,7 @@ printf ("시작");
 int n;
 int x;
 int y;
-
+char q[1000];
 
 for (int i = 0;i <= 100; i++ ){
     x = rand() % 100 +1;
@@ -15,16 +15,28 @@ for (int i = 0;i <= 100; i++ ){
     n = (int)n;
     if((x * y) == n){
         printf("정답\n");
+        q[i] = ("정답  %d x %d = %d",x,y,n);
                     }
     else{
         printf("오답~~~~~~ 한문재더\n");
         i = i - 2;
-       
+       q[i] = ("      %d x %d = %d 정답=%d",x,y,n,(x*y));
     }
     
 
 }
+<<<<<<< HEAD
 printf ("축하함니다 (암호:124)");
+=======
+
+
+for (int i = 0; i < 1000;i++)
+{//수정
+    printf(" ");
+}
+
+printf ("끝");
+>>>>>>> 4c6d130a8ec34612714a422d3d426f7f6cbff80f
 
 return 0;
 
