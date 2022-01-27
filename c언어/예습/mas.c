@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
 
 void main() {
 printf ("시작");
@@ -8,7 +7,7 @@ int x;
 int y;
 char q[1000];
 
-for (int i = 0;i <= 5; i++ ){
+for (int i = 0;i <= 100; i++ ){
     x = rand() % 100 +1;
     y = rand() % 10 +1;
     printf("%d x %d = ",x,y);
@@ -26,6 +25,9 @@ for (int i = 0;i <= 5; i++ ){
     
 
 }
+<<<<<<< HEAD
+printf ("축하함니다 (암호:124)");
+=======
 
 
 for (int i = 0; i < 1000;i++)
@@ -34,6 +36,7 @@ for (int i = 0; i < 1000;i++)
 }
 
 printf ("끝");
+>>>>>>> 4c6d130a8ec34612714a422d3d426f7f6cbff80f
 
 return 0;
 
