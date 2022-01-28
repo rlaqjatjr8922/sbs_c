@@ -32,17 +32,27 @@ for (int i = 1;i <= 2; i++ ){
     
 
 }
+<<<<<<< HEAD
 printf("%s",q[1]);
+=======
+
+>>>>>>> eb6e0156c12cdcca05342fb2a3a55b001025b189
 printf ("축하함니다 (암호:124)");
 
 
 
+<<<<<<< HEAD
 for (int qw = 0; qw < 5;qw++)
 {//수정
     printf("%s",q[qw]);
 }
 
 printf ("끝");
+=======
+
+printf ("끝");
+
+>>>>>>> eb6e0156c12cdcca05342fb2a3a55b001025b189
 
 return 0;
 
