@@ -1,12 +1,12 @@
 /*
-    정수를입력바다 , 1~n까지 합을구하여출력
+    ????????¹?? , 1~n???? ????????????
     */
    #include <stdio.h>
 
 int main() {
 
     int i;
-    printf("정수");
+    printf("????");
     scanf("%d",&i);
 
     i = (int)i;
@@ -18,7 +18,7 @@ int main() {
     }
 
     
-    printf("답:%d",q);
+    printf("??:%d",q);
 return 0;
 
 }
