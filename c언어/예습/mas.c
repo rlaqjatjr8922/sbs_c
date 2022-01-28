@@ -5,9 +5,16 @@ printf ("시작");
 int n;
 int x;
 int y;
-char q[1000];
+char q[10] = {'1','1','1','1','1','1','1','1','1','1',};
 
-for (int i = 0;i <= 100; i++ ){
+for (int qwe = 0; qwe < 9; qwe++)
+{
+    q[qwe] = 1; 
+}
+printf("%s",q[1]);
+
+
+for (int i = 1;i <= 2; i++ ){
     x = rand() % 100 +1;
     y = rand() % 10 +1;
     printf("%d x %d = ",x,y);
@@ -25,18 +32,17 @@ for (int i = 0;i <= 100; i++ ){
     
 
 }
-<<<<<<< HEAD
+printf("%s",q[1]);
 printf ("축하함니다 (암호:124)");
-=======
 
 
-for (int i = 0; i < 1000;i++)
+
+for (int qw = 0; qw < 5;qw++)
 {//수정
-    printf(" ");
+    printf("%s",q[qw]);
 }
 
 printf ("끝");
->>>>>>> 4c6d130a8ec34612714a422d3d426f7f6cbff80f
 
 return 0;
 
