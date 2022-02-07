@@ -2,10 +2,14 @@
 
 int main() {
 
-double i = 3.14;
+int q;
+
+scanf("%d",&q);
+
+printf("%d",q+1)
 
 
-printf("%d" , (int)i);
+
 
 
 return 0;
